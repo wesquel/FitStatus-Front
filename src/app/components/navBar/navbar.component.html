@@ -1,0 +1,15 @@
+<nav class="navbar">
+  <div class="logo">
+    <img src="img/login_page/Group 52.png" alt="Logo">
+  </div>
+  <div class="hamburger" (click)="toggleMenu()">
+    &#9776;
+  </div>
+  <div class="menu" [class.active]="menuOpen">
+    <ul>
+      <li><a routerLink="/" href="/">Inicio</a></li>
+      <li><a routerLink="/about">Sobre</a></li>
+      <li><a routerLink="/login" href="/login" class="button-link">Login</a></li>
+    </ul>
+  </div>
+</nav>
