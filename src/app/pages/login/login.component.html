@@ -1,0 +1,24 @@
+<body>
+  <div class="left">
+    <img src="/img/login_page/image.png" alt="Left Image">
+  </div>
+
+  <div class="middle">
+  </div>
+
+  <div class="right">
+      <div class="teste">
+          <img class="imagen-src" src="/img/login_page/Group 52.png" alt="Centered Image">
+      </div>
+      <div class="background-form">
+          <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)">
+              <input placeholder="username" class="input-style" type="text" id="username" name="username" ngModel required>
+              <input placeholder="password" class="input-style" type="password" id="password" name="password" ngModel required email>
+              <div class="button-div">
+                  <button type="submit">Login</button>
+              </div>
+          </form>
+      </div>
+  </div>
+</body>
+
