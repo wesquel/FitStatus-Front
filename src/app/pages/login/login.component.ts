@@ -3,13 +3,15 @@ import { FormBuilder, FormGroup, FormsModule, NgForm, ReactiveFormsModule, Valid
 import { CustomInputComponent } from "../../components/custom-input/custom-input.component";
 import { AuthService } from '../../service/auth.service';
 import { HttpClient, HttpClientModule, provideHttpClient } from '@angular/common/http';
+import { NavbarComponent } from '../../components/navBar/navbar.component';
 
 @Component({
   selector: 'app-login',
   standalone: true,
   imports: [
     CustomInputComponent,
-    FormsModule
+    FormsModule,
+    NavbarComponent
   ],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
