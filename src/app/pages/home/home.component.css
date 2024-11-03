@@ -243,3 +243,70 @@ a {
   height: 3.2em;
   display: inline-block;
 }
+
+/* Pequenos smartphones (320px a 480px) */
+@media only screen and (max-width: 480px) {
+  /* Estilos para pequenos smartphones */
+
+  .middle-box img {
+    display: none;
+  }
+
+  .perfil-img {
+    width: 100px;
+  }
+
+  .last-container-3 {
+    display: flex;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    background: linear-gradient(302.62deg, #000000 4.65%, rgba(133, 133, 133, 0.479167) 72.04%, rgba(217, 217, 217, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+
+  .last-container-left {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+
+  .last-container-middle{
+    display: none;
+
+  }
+
+  .last-container-right{
+    display: none;
+  }
+
+}
+
+/* Smartphones padrão (480px a 768px) */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  /* Estilos para smartphones maiores */
+}
+
+/* Tablets em modo retrato (768px a 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Estilos para tablets em retrato */
+}
+
+/* Tablets em modo paisagem */
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  /* Estilos para tablets em paisagem */
+}
+
+/* Laptops pequenos (1200px a 1400px) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  /* Estilos para laptops */
+}
+
+
