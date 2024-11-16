@@ -1,0 +1,47 @@
+.dashboard-container {
+  display: flex;
+  background-color: #272727;
+}
+
+.container {
+  padding: 1em;
+  height: 100%;
+  width: 100%;
+}
+
+.margin{
+  margin-top: 1.2em;
+}
+
+.section-calendar{
+  background-color: red;
+  height: 10em;
+  width: 100%;
+}
+
+.section-date{
+  background-color: rgb(0, 255, 64);
+  height: 15em;
+  width: 100%;
+}
+
+.section-graph {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20em;
+  width: 100%;
+  background-color: none;
+}
+
+.chart-mensure{
+  height: 20em;
+  width: 49%;
+  background-color: rgb(74, 0, 247);
+}
+
+.chart-lost{
+  height: 20em;
+  width: 49%;
+  background-color: rgb(123, 255, 0);
+}
